@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import { ReactNode } from 'react';
+import NavBar from "../components/Navbar";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -10,6 +11,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-sans">
+        <NavBar />
         {children}
       </body>
     </html>

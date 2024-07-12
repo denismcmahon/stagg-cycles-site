@@ -4,7 +4,6 @@ import NavBar from "../components/Navbar";
 export default function Home() {
   return (
     <div>
-       <NavBar />
       {/* Hero Section */}
       <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('/Shop-Background.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center">
